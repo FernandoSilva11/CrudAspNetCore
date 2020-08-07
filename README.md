@@ -6,7 +6,7 @@ Para geração de base de dados foi utilizado Entity Framework Core com Code Fir
 -Aqui um print da tela inicial do projeto, vazia pois nenhum livro foi adicionado ainda.
 ![CrudAspNetCore1](https://github.com/FernandoSilva11/CrudAspNetCore/blob/master/TelaInicial.PNG)
 
--Ao clicar "Cadastrar Novo Livro" a tela de Cadastro aparece, pedindo as informações do livro.
+-Ao clicar "Cadastrar Novo Livro" a tela de Cadastro aparece, pedindo as informações do livro.<br />
 **Obs:No campo Imagem o usuário deve fornecer a ulr da imagem que deseja que seja exibida.**
  
 ![CrudAspNetCore2](https://github.com/FernandoSilva11/CrudAspNetCore/blob/master/TelaCadastro.PNG)
