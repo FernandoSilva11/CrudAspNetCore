@@ -1,0 +1,61 @@
+﻿@model Livraria.Models.Entidades.Livros
+
+@{
+    ViewData["Title"] = "Delete";
+}
+
+<h1>Deletar</h1>
+
+<div>
+    <h4>Livros</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Titulo)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Titulo)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Sinopse)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Sinopse)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Preco)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Preco)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.EmEstoque)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.EmEstoque)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Genero)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Genero)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Escritor)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Escritor)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.ImagemUrl)
+        </dt>
+        <dd class="col-sm-10">
+            <p><img src="@Model.ImagemUrl" /></p>
+        </dd>
+    </dl>
+    
+    <form asp-action="Delete">
+        <input type="submit" value="Deletar" class="btn btn-danger" /> |
+        <a asp-action="Index">Voltar para a a listagem</a>
+    </form>
+</div>

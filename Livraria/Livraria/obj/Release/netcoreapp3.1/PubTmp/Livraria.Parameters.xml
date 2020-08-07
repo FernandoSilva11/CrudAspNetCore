@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IIS Web Application Name" description="" value="Livraria20200807123802" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^C:\\_Livraria\\Livraria\\Livraria\\obj\\Release\\netcoreapp3\.1\\PubTmp\\Out\\$" />
+  </parameter>
+  <parameter name="Livraria.Models.Context.Contexto" description="" value="Data Source=tcp:desktop-72taipssqlexpress.database.windows.net,1433;Initial Catalog=LivrariaBD;User Id=Fernando@desktop-72taipssqlexpress;Password=Silva031." tags="dbfullsql">
+    <parameterEntry kind="ProviderPath" scope="dbfullsql" match="^C:\\_Livraria\\Livraria\\Livraria\\obj\\Release\\netcoreapp3\.1\\PubTmp\\EFSQLScripts\\Livraria\.Models\.Context\.Contexto\.sql$" />
+  </parameter>
+</parameters>

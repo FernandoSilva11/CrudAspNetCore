@@ -1,0 +1,47 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UserSecretsId>7e41c003-90aa-4da3-8097-90e5226cf9f5</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Migrations\20200806193213_MigracaoInicial.cs" />
+    <Compile Remove="Migrations\20200806193213_MigracaoInicial.Designer.cs" />
+    <Compile Remove="Migrations\20200806201243_MigracaoInicial.cs" />
+    <Compile Remove="Migrations\20200806201243_MigracaoInicial.Designer.cs" />
+    <Compile Remove="Migrations\20200806202131_MigracaoInicial.cs" />
+    <Compile Remove="Migrations\20200806202131_MigracaoInicial.Designer.cs" />
+    <Compile Remove="Migrations\20200806204057_MigracaoInicial.cs" />
+    <Compile Remove="Migrations\20200806204057_MigracaoInicial.Designer.cs" />
+    <Compile Remove="Migrations\20200807033206_MigracaoInicial.cs" />
+    <Compile Remove="Migrations\20200807033206_MigracaoInicial.Designer.cs" />
+    <Compile Remove="Migrations\20200807035748_MigracaoInicial.cs" />
+    <Compile Remove="Migrations\20200807035748_MigracaoInicial.Designer.cs" />
+    <Compile Remove="Migrations\20200807040944_MigracaoInicial.cs" />
+    <Compile Remove="Migrations\20200807040944_MigracaoInicial.Designer.cs" />
+    <Compile Remove="Migrations\20200807041927_MigracaoInicial.cs" />
+    <Compile Remove="Migrations\20200807041927_MigracaoInicial.Designer.cs" />
+    <Compile Remove="Migrations\20200807121110_MigracaoInicial.cs" />
+    <Compile Remove="Migrations\20200807121110_MigracaoInicial.Designer.cs" />
+    <Compile Remove="Migrations\20200807122330_MigracaoInicial.cs" />
+    <Compile Remove="Migrations\20200807122330_MigracaoInicial.Designer.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="3.1.6" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="3.1.6" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="3.1.6">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="3.1.4" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Views\Home\" />
+  </ItemGroup>
+
+
+
+</Project>

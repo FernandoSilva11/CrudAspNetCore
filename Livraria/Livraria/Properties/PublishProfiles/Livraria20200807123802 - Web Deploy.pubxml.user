@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Esse arquivo é usado pelo processo de publicação/pacote do seu projeto Web. É possível personalizar o comportamento deste processo
+ao editar este arquivo MSBuild. Para saber mais sobre isso, visite https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAc23bp32uKUe5wW/POJ3TEAAAAAACAAAAAAAQZgAAAAEAACAAAAAZCIPRKS7EACCrSKwfzlHr6W8JT2sUl2X1UrX22tU77gAAAAAOgAAAAAIAACAAAACy1y62Ct5E5AFie1XtzZxIMbNnpyM41jRVUtzyydin0YAAAAA1QtqC5/R8dVatN6LsWweSY3ef70IHAm4nRmb/WAoxJlnVeuyxRJYtSBzYI9kz6/96a4a8j2kMigf3jTctVnavz+KjNWdEYXanjK+V3zjgXrQWtPn9bQRVHhVPhNdun0o48aLL9oEPVtlfrG2tJCVgGJaRF6CExVtLF+cyiAlafEAAAACTmdV0V2gETguS0Ug7BxjbpzGR6Yq4jVW0Fjo0ku2h2YTezukqmFaNY1nq/2XiHdCTK1FVfL4aLLtZDpyRctqw</EncryptedPassword>
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="DefaultConnection">
+      <Value>Data Source=DESKTOP-72TAIPS\SQLEXPRESS%3bDatabase=LivrariaBD%3bIntegrated Security=true</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+  <ItemGroup>
+    <EFMigrations Include="Livraria.Models.Context.Contexto">
+      <Value>Data Source=tcp:desktop-72taipssqlexpress.database.windows.net,1433%3bInitial Catalog=LivrariaBD%3bUser Id=Fernando%40desktop-72taipssqlexpress%3bPassword=Silva031.</Value>
+    </EFMigrations>
+  </ItemGroup>
+</Project>
