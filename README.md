@@ -1,13 +1,13 @@
 # CrudAspNetCore
 
-O Projeto se trata de um Crud básico na versão Asp.Net Core 3.1
-Para geração de base de dados foi utilizado Entity Framework Core com Code First 
+#O Projeto se trata de um Crud básico na versão Asp.Net Core 3.1
+#Para geração de base de dados foi utilizado Entity Framework Core com Code First 
 
 Aqui um print da tela inicial do projeto, vazia pois nenhum livro foi adicionado ainda.
 ![CrudAspNetCore1](https://github.com/FernandoSilva11/CrudAspNetCore/blob/master/TelaInicial.PNG)
 
-Ao clicar "Cadastrar Novo Livro" a tela de Cadastro aparece, pedindo as informações do livro.
-Obs:No campo Imagem o usuário deve fornecer a ulr da imagem que deseja que seja exibida. 
+Ao clicar "Cadastrar Novo Livro" a tela de Cadastro aparece, pedindo as informações do livro.**Obs:No campo Imagem o usuário deve fornecer a ulr da imagem que deseja que seja exibida.**
+ 
 ![CrudAspNetCore2](https://github.com/FernandoSilva11/CrudAspNetCore/blob/master/TelaCadastro.PNG)
 
 Após clicar em "Salvar" o usuário é levado novamente a tela de inicial, agora contendo o livro que ele adicionou.
